@@ -1,8 +1,8 @@
-from config import get_settings
+from bot import start
 
 
 def main():
-    print(get_settings())
+    start()
 
 
 if __name__ == '__main__':
