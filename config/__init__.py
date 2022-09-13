@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     telegram_token: str
     admin_email: EmailStr
     admin_telegram_user_id: int = None
+    SEND_ON_START: bool = False
 
     class Config:
         env_file = "config/.env"
